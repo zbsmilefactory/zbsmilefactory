@@ -1,0 +1,51 @@
+{
+  "name": "resend-email-service",
+  "version": "1.0.0",
+  "description": "Production-ready Node.js email service using Resend API",
+  "main": "code/index.js",
+  "scripts": {
+    "start": "node code/index.js",
+    "dev": "node code/index.js",
+    "test": "node examples/run-all-tests.js",
+    "test:recipients": "node examples/test-real-recipients.js",
+    "test:api": "node examples/test-api-functionality.js",
+    "test:basic": "node examples/test-basic-email.js",
+    "example:welcome": "node examples/welcome-email.js",
+    "example:custom": "node examples/custom-email.js",
+    "example:server": "node examples/server-example.js"
+  },
+  "keywords": [
+    "email",
+    "resend",
+    "nodejs",
+    "api",
+    "smtp",
+    "transactional-email",
+    "email-service"
+  ],
+  "author": "SmileFactory",
+  "license": "MIT",
+  "dependencies": {
+    "resend": "^3.2.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smilefactorydev/mvp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smilefactorydev/mvp/issues"
+  },
+  "homepage": "https://github.com/smilefactorydev/mvp#readme"
+}
