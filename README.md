@@ -19,6 +19,7 @@ smilefactory-platform/
 ├── database/                # PostgreSQL migrations and schemas
 ├── shared/                  # Shared TypeScript types and utilities
 ├── docs/                    # Comprehensive platform documentation
+
 ├── examples/                # Code examples and integrations
 └── migration-planning/      # Internal planning (excluded from Git)
 ```
