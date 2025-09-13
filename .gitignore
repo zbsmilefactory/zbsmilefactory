@@ -6,6 +6,13 @@
 # This folder contains sensitive planning documents
 migration-planning/
 
+# DESIGN AND DEVELOPMENT TOOLS
+# Exclude design iteration files and cursor rules
+.superdesign/
+.cursor/
+.windsurfrules
+CLAUDE.md
+
 # ===================================
 # Node.js & npm
 # ===================================
