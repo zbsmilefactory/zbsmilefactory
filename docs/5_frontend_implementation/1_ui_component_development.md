@@ -83,41 +83,44 @@ export const BaseComponent: React.FC<BaseComponentProps> = ({
 // src/theme/theme.ts
 import { createTheme, ThemeOptions } from '@mui/material/styles';
 
+// ⚠️ IMPORTANT: This theme configuration should be updated to match the UI Design Guide
+// Refer to: docs/5_frontend_implementation/8_frontend_specifications/ui-design-guide.md
+
 const themeOptions: ThemeOptions = {
   palette: {
     mode: 'light',
     primary: {
-      main: '#1976d2',
-      light: '#42a5f5',
-      dark: '#1565c0',
+      main: '#7CB342',      // Brand Green from UI Design Guide
+      light: '#AED581',     // Brand Green Light from UI Design Guide
+      dark: '#689F38',      // Brand Green Dark from UI Design Guide
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#dc004e',
-      light: '#ff5983',
-      dark: '#9a0036',
+      main: '#2196F3',      // Blue Accent from UI Design Guide
+      light: '#E3F2FD',     // Blue Light from UI Design Guide
+      dark: '#1976D2',      // Darker blue variant
       contrastText: '#ffffff',
     },
     background: {
-      default: '#f5f5f5',
-      paper: '#ffffff',
+      default: '#FAFAFA',   // Gray 50 from UI Design Guide
+      paper: '#FFFFFF',     // White from UI Design Guide
     },
     text: {
-      primary: '#212121',
-      secondary: '#757575',
+      primary: '#212121',   // Gray 900 from UI Design Guide
+      secondary: '#616161', // Gray 700 from UI Design Guide
     },
   },
   typography: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Inter", system-ui, "Helvetica", "Arial", sans-serif', // Updated to match UI Design Guide
     h1: {
-      fontSize: '2.5rem',
-      fontWeight: 600,
-      lineHeight: 1.2,
+      fontSize: '2.25rem',  // 36px - Display Large from UI Design Guide
+      fontWeight: 700,      // font-bold from UI Design Guide
+      lineHeight: 1.25,     // leading-tight from UI Design Guide
     },
     h2: {
-      fontSize: '2rem',
-      fontWeight: 600,
-      lineHeight: 1.3,
+      fontSize: '1.875rem', // 30px - Display Medium from UI Design Guide
+      fontWeight: 700,      // font-bold from UI Design Guide
+      lineHeight: 1.25,     // leading-tight from UI Design Guide
     },
     h3: {
       fontSize: '1.75rem',

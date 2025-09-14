@@ -2,7 +2,9 @@
 
 ## 🎯 **Overview**
 
-This document specifies the standardized profile card component design based on the "Test Profile" reference. All profile cards must use identical styling with only the profile type label having different colors.
+This document specifies the standardized profile card component design for the SmileFactory Platform. All profile cards must use identical styling with only the profile type label having different colors.
+
+> **⚠️ IMPORTANT**: This document provides legacy specifications. For current design specifications, colors, typography, and component patterns, refer to the [UI Design Guide](ui-design-guide.md) which serves as the authoritative source for all visual design decisions.
 
 ## 🎨 **Visual Design Specification**
 

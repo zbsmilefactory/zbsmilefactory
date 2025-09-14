@@ -2,7 +2,9 @@
 
 ## Overview
 
-This document specifies the frontend architecture for the ZbInnovation platform. The architecture defines how the user interface components work together to create a seamless user experience across all platform features.
+This document specifies the frontend architecture for the SmileFactory Platform. The architecture defines how the user interface components work together to create a seamless user experience across all platform features.
+
+> **📋 Design Specifications**: For complete visual design specifications, typography, colors, and component styling, refer to the [UI Design Guide](ui-design-guide.md) - the authoritative source for all design-related decisions.
 
 ## Platform Components
 

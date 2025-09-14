@@ -2,7 +2,9 @@
 
 ## Overview
 
-This document explains all the forms users interact with on the ZbInnovation platform. It details what information is collected, how forms work, and what validation rules ensure data quality and user experience.
+This document explains all the forms users interact with on the SmileFactory Platform. It details what information is collected, how forms work, and what validation rules ensure data quality and user experience.
+
+> **🎨 Visual Design**: For form styling, input states, validation messaging, and visual specifications, refer to the [UI Design Guide](ui-design-guide.md) which provides comprehensive form design patterns and component specifications.
 
 ## Form Design Principles
 
@@ -22,7 +24,7 @@ The platform uses modern form design that makes data entry simple and intuitive:
 **Purpose**: Allow new users to create accounts and join the platform
 
 **How the Sign Up Form Works**:
-When someone wants to join ZbInnovation, they complete a registration form that collects essential information to create their account.
+When someone wants to join SmileFactory Platform, they complete a registration form that collects essential information to create their account.
 
 **Information Required**:
 - **Email Address**: Must be a valid email format and not already registered

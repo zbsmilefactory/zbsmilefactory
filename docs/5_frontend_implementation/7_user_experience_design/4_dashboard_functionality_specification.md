@@ -330,4 +330,6 @@ Based on live dashboard analysis (localhost:5173/dashboard), the following featu
 **User Interface**: See `/5_frontend_implementation/2_user_interface_implementation.md`
 **User Journeys**: See `/user-journeys/3_dashboard_and_profile_management.md`
 
-*This dashboard specification documents the current implementation and ensures consistency with the existing logical process for profile type and completion status-based dashboard functionality on the ZbInnovation platform.*
+*This dashboard specification documents the current implementation and ensures consistency with the existing logical process for profile type and completion status-based dashboard functionality on the SmileFactory Platform.*
+
+> **🎨 Visual Design**: For dashboard component styling, colors, typography, and visual specifications, refer to the [UI Design Guide](../8_frontend_specifications/ui-design-guide.md) which provides comprehensive design patterns and component specifications.

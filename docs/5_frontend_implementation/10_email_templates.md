@@ -58,33 +58,37 @@ This document outlines the email template design and communication strategy for 
 ## 🎨 **Design Standards**
 
 ### **Visual Identity**
+
+> **🎨 Design System**: Email templates must align with the [UI Design Guide](8_frontend_specifications/ui-design-guide.md) color palette and typography specifications for brand consistency.
+
 ```css
-/* Email template CSS variables */
+/* Email template CSS variables - Updated to match SmileFactory Platform Design System */
 :root {
-  --primary-color: #1976d2;
+  --primary-color: #7CB342;        /* Brand Green from UI Design Guide */
+  --primary-dark: #689F38;         /* Brand Green Dark */
   --secondary-color: #f5f5f5;
-  --accent-color: #ff6b35;
-  --text-primary: #333333;
-  --text-secondary: #666666;
-  --success-color: #4caf50;
-  --warning-color: #ff9800;
-  --error-color: #f44336;
+  --accent-color: #2196F3;         /* Blue Accent from UI Design Guide */
+  --text-primary: #212121;         /* Gray 900 from UI Design Guide */
+  --text-secondary: #616161;       /* Gray 700 from UI Design Guide */
+  --success-color: #4CAF50;        /* Success color from UI Design Guide */
+  --warning-color: #FF9800;        /* Warning color from UI Design Guide */
+  --error-color: #F44336;          /* Error color from UI Design Guide */
 }
 
-/* Typography */
+/* Typography - Aligned with UI Design Guide */
 .email-heading {
-  font-family: 'Inter', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 600;
+  font-family: 'Inter', system-ui, Arial, sans-serif;  /* Matches UI Design Guide */
+  font-size: 24px;                                     /* Heading 1 from UI Design Guide */
+  font-weight: 600;                                     /* font-semibold from UI Design Guide */
   color: var(--text-primary);
-  line-height: 1.3;
+  line-height: 1.25;                                    /* leading-tight from UI Design Guide */
 }
 
 .email-body {
-  font-family: 'Inter', Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Inter', system-ui, Arial, sans-serif;  /* Matches UI Design Guide */
+  font-size: 16px;                                     /* Body Large from UI Design Guide */
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.625;                                  /* leading-relaxed from UI Design Guide */
 }
 
 .email-button {
